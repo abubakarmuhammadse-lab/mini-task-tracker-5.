@@ -1,0 +1,33 @@
+# Python Task Tracker
+
+## Project Goal
+The goal of this project is to build a menu-based Python Task Tracker that allows users to manage daily tasks and save them in a JSON file.
+
+## Features
+- Add tasks with a title.
+- View tasks with Pending or Done status.
+- Mark tasks as completed.
+- Delete tasks.
+- Save tasks in `tasks.json` using `json.dump()`.
+- Load saved tasks using `json.load()`.
+- Handle empty titles, invalid choices, invalid task numbers, and missing files.
+
+## Technologies Used
+- Python
+- JSON
+- Google Colab
+- GitHub
+
+## How to Run
+1. Download `mini_task_tracker.py`.
+2. Open it in a Python environment.
+3. Run the program using:
+
+   `python mini_task_tracker.py`
+
+4. Select an option from the menu and follow the prompts.
+
+## Project Files
+- `mini_task_tracker.py` — main Python program.
+- `README.md` — project documentation.
+- `tasks.json` — task data created automatically when tasks are saved.
